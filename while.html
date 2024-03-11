@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While</title>
+</head>
+
+<body>
+
+
+
+    <h1>Frase Repetida</h1>
+    <div id="frase"></div>
+
+    <script>
+
+        const frase = "Preciso estudar mais.";
+        let resultado = "";
+        let contador = 0;
+
+        while (contador <= 20) {
+            resultado += `<p> ${frase}</p>`;
+            contador++
+        }
+
+        document.getElementById("frase").innerHTML = resultado;
+
+    </script>
+</body>
+
+</html>

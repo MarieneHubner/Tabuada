@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fonte;
+    src: url(fonte/letters_for_learners/Letters\ for\ Learners\ Outline\ Bold.ttf);
+}
+
+body {
+    background-image: url(https://thumbor.novaescola.org.br/ivbZcFAoce3wU6M0jrffMHbapY0=/nova-escola-producao.s3.amazonaws.com/4Y2TKcsAtcMjxqCredrsxVqpnUwcgFdDug9Dg5aBgrGhBFYWv3R86wJjewCk/aula-de-matematica-numeros-na-lousa-getty-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h2{
+    font-family: fonte;
+    font-size: 70px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input{
+    border: 2px solid #cf0f0f; /* Cor da borda (substitua pela cor desejada) */
+    padding: 10px; /* Espaçamento interno para dar espaço à borda */
+    border-radius: 8px; /* Borda arredondada (opcional) */
+}
+
+
+table{
+    margin: auto;
+    background-color: lightcoral;
+    font-family: fantasy;
+    width: 30%;
+    
+}
+
+button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #d83333;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+  
+footer{
+    margin-top: 25%;
+    font-family: fantasy;
+}
